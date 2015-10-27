@@ -1,6 +1,6 @@
 class Grains
-  def self.square(number)
-    (1...number).reduce(1){|sum| sum * 2 }
+  def self.square(n)
+    2**(n-1)
   end
 
   def self.total
