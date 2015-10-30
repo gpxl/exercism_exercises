@@ -4,6 +4,6 @@ class Grains
   end
 
   def self.total
-    (1..64).reduce(0) { |sum, i| sum + square(i) }
+    (2**64)-1
   end
 end
